@@ -4,6 +4,7 @@ def checkoutCode() {
 
 def poetryInstall() {
     sh '''
+    yum install 
     pip install poetry
     ~/.local/bin/poetry install
     '''
