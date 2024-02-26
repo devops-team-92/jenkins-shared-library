@@ -1,6 +1,6 @@
 import com.example.YourClass
 
 def call() {
-   // def instance = new com.example.YourClass()
-    return sayHello()
+    def instance = new YourClass()
+    return instance.sayHello()
 }
