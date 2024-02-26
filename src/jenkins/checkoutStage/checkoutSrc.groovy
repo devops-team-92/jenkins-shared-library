@@ -19,6 +19,6 @@ class checkoutSrc implements Serializable {
 }
 */
 
-class Human {
+class checkoutSrc {
     String name
 }
