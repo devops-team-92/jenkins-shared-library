@@ -7,7 +7,7 @@ package jenkins.checkoutStage
 //     }
 // }
 
-
+/*
 class checkoutSrc implements Serializable {
   def steps
   String name
@@ -16,4 +16,9 @@ class checkoutSrc implements Serializable {
   def sayName() {
     steps.sh "echo ${name}"
   }
+}
+*/
+
+class Human {
+    String name
 }
