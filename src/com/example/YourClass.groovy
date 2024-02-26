@@ -14,7 +14,7 @@ class YourClass {
             }
         }
         catch (hudson.AbortException ex) {
-            throw new SBOPipelineLibraryException(errorMsg, ex)
+            throw echo "test catch"
         }
     }
 }
