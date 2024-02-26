@@ -19,7 +19,7 @@ class checkoutSrc implements Serializable {
 }
 */
 
-class checkoutSrc implements Seriaziable  {
+class checkoutSrc implements Serializable {
     String name
     //  void sayName() {
     //     sh "echo ${name}"
