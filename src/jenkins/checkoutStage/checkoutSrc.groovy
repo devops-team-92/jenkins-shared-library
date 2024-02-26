@@ -27,7 +27,7 @@ class checkoutSrc implements Serializable {
     def steps
     checkoutSrc(steps) {this.steps = steps}
     def satName(){
-      steps.sh "echo $name"
+      steps.sh "echo ${name}"
     }
 
 }
