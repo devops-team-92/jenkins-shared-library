@@ -19,15 +19,15 @@ class checkoutSrc implements Serializable {
 }
 */
 
-class checkoutSrc implements Serializable {
-    String name
-    //  void sayName() {
-    //     sh "echo ${name}"
-    // }
-    def steps
-    checkoutSrc(steps) {this.steps = steps}
-    def satName(){
-      steps.sh "echo ${name}"
-    }
+// class checkoutSrc implements Serializable {
+//     String name
+//     //  void sayName() {
+//     //     sh "echo ${name}"
+//     // }
+//     def steps
+//     checkoutSrc(steps) {this.steps = steps}
+//     def satName(){
+//       steps.sh "echo ${name}"
+//     }
 
-}
+// }
