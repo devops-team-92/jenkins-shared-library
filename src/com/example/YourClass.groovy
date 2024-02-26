@@ -13,8 +13,8 @@ class YourClass {
                 bat(script: command)
             }
         }
-        catch (hudson.AbortException ex) {
-            throw echo "test catch"
+        catch (Exception e) {
+            return "An error occurred: ${e.message}"
         }
     }
 }
