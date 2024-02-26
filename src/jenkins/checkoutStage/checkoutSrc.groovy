@@ -21,4 +21,7 @@ class checkoutSrc implements Serializable {
 
 class checkoutSrc {
     String name
+     void sayName() {
+        sh "echo ${name}"
+    }
 }
