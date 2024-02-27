@@ -7,7 +7,7 @@ class YourClass {
     def executeShellCommand(command) {
         def errorMsg = "Failed to execute the commands"
         try {
-                sh(script: command)
+                sh "$command "
         }
         catch (Exception e) {
             return "An error occurred: ${e.message}"
