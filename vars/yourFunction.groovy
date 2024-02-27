@@ -7,5 +7,6 @@ import com.example.YourClass
 
 def call(String command) {
     def instance = new YourClass()
-    return instance.executeShellCommand(command)
+    def result = instance.executeShellCommand(command)
+    return result
 }
