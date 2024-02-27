@@ -1,6 +1,6 @@
 package com.example
 
-class YourClass {
+class YourClass implements Serializable  {
     def sayHello() {
         return "Hello from YourClass!"
     }
