@@ -1,4 +1,4 @@
-import com.example.*
+import com.example.newClass
 
 def call(String command) {
     executeCommand = new newClass()
