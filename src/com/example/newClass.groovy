@@ -1,7 +1,7 @@
 package com.example
 
 class newClass {
-    def executeCommand(String Command){
+    def executeCommand(String command){
     return command.execute().text.trim()
     }
 }
